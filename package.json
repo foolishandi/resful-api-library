@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "description": "A library application",
   "scripts": {
-    "json-seyrver": "npx json-server --watch ./json-server/database/test.json --port 3004"
+    "json-seyrver": "npx json-server --watch ./json-server/database/test.json --port 80",
+    "json-deployment": "curl https://api.4everland.org//integrations/deploy/657888b9f97be500079a9733/w6vysXEN"
   },
   "devDependencies": {},
-  "dependencies": {
-  },
+  "dependencies": {},
   "author": {
     "name": ""
   },
