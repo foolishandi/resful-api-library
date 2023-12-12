@@ -1,0 +1,23 @@
+{
+  "name": "my-project-library",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A library application",
+  "scripts": {
+    "json-seyrver": "npx json-server --watch ./json-server/database/test.json --port 3004"
+  },
+  "devDependencies": {},
+  "dependencies": {
+  },
+  "author": {
+    "name": ""
+  },
+  "strapi": {
+    "uuid": "2ba9cfa6-99c5-4972-9c94-5c7ca27e4e82"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
